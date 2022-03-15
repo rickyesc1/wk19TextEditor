@@ -1,1 +1,0 @@
-# wk19TextEditor
