@@ -20,7 +20,8 @@ export default class {
       indentUnit: 2,
       tabSize: 2,
     });
-
+    
+    here is the get route ... where is put
     // When the editor is ready, set the value to whatever is store in indexeddb
     getDb().then((data) => {
       console.info('Loaded data from IndexedDB, injecting into editor');

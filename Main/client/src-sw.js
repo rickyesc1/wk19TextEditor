@@ -5,6 +5,8 @@ const { CacheableResponsePlugin } = require('workbox-cacheable-response');
 const { ExpirationPlugin } = require('workbox-expiration');
 const { precacheAndRoute } = require('workbox-precaching/precacheAndRoute');
 
+
+// make sure that routes for GET AND PUT are working 
 precacheAndRoute(self.__WB_MANIFEST);
 
 // Set up page cache

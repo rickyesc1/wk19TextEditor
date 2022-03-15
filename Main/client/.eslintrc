@@ -3,7 +3,7 @@
     "browser": true
   },
   "rules": {
-    // Override our default settings just for this directory
+    // Override our default settings just for this directory - do this only here, bnrig in more dependedncies. 
     "eqeqeq": "warn",
     "strict": "off",
     "import/no-extraneous-dependencies": "off",

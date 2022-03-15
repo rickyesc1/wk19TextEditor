@@ -10,3 +10,5 @@ just another text editor
 `;
 
 export { header };
+
+// TAKES CHARGE OF HEADER , NOTHING ELSE. 

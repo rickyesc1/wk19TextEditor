@@ -22,3 +22,5 @@ butInstall.addEventListener('click', async () => {
 window.addEventListener('appinstalled', (event) => {
   window.deferredPrompt = null;
 });
+
+// bundle comes from webpack (where are the GET AND PUT ROUTES )
